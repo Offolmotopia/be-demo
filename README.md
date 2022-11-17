@@ -7,7 +7,8 @@ Requires PHP >=8.0.0
 composer install
 ```
 
-### Rename .env.example to .env
+### Rename .env.example to .env!
+
 
 ### Create sqlite DB:
 ```
