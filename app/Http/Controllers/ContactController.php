@@ -20,14 +20,6 @@ class ContactController extends Controller
 
     /**
      *
-     * @return \Illuminate\Http\Response
-     */
-    public function create()
-    {
-    }
-
-    /**
-     *
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
@@ -46,29 +38,6 @@ class ContactController extends Controller
         $contact = Contact::create($request->all());
 
         return $contact;
-    }
-
-    /**
-     *
-     * @param  \App\Models\Contact  $Contact
-     * @return \Illuminate\Http\Response
-     */
-    public function show(Contact $contact)
-    {
-    }
-
-    /**
-     *
-     * @param  \App\Models\Contact  $Contact
-     * @return \Illuminate\Http\Response
-     */
-    public function edit(Contact $contact, $id)
-    {
-//         $stored = Contact::find($id);
-//         $stored->fill($contact);
-//         $stored->save();
-//
-//         return $stored;
     }
 
     /**
