@@ -1,6 +1,11 @@
 Laravel api for frontend contacts form.
 
-### Run the api with
+### Install the dependencies:
+```
+composer install
+```
+
+### Run the api:
 ```
 php artisan serve
 ```
